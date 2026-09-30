@@ -30,29 +30,33 @@ that you must include in subsequent requests.
 
 The following errors can occur during authentication:
 
-**401 Unauthorized**
-: Possible reasons:
-: 
-: - You aren't logged in.
-: - The session expired.
-
-**403 Forbidden**
-: Possible reasons:
-: 
-: - You don't have the necessary right.
-
-**400 Bad Request**
-: Possible reasons:
-: 
-: - The syntax is invalid.
-
 <dl>
   <dt>401 Unauthorized</dt>
   <dd>Possible reasons:</dd>
   </dd>
   <dd><ul>
     <li>You aren't logged in</li>
-    <li>- The session expired.</li>
+    <li>The session expired.</li>
+    </ul>
+  </dd>
+</dl>
+
+<dl>
+  <dt>403 Forbidden</dt>
+  <dd>Possible reasons:</dd>
+  </dd>
+  <dd><ul>
+    <li>You don't have the necessary right.</li>
+    </ul>
+  </dd>
+</dl>
+
+<dl>
+  <dt>400 Bad Request</dt>
+  <dd>Possible reasons:</dd>
+  </dd>
+  <dd><ul>
+    <li>The syntax is invalid.</li>
     </ul>
   </dd>
 </dl>
