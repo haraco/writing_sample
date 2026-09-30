@@ -50,8 +50,11 @@ The following errors can occur during authentication:
   <dt>401 Unauthorized</dt>
   <dd>Possible reasons:</dd>
   </dd>
-  <dd>- You aren't logged in</dd>
-  <dd>- The session expired.</dd>
+  <dd><ul>
+    <li>You aren't logged in</li>
+    <li>- The session expired.</li>
+    </ul>
+  </dd>
 </dl>
 
 ## Requests
