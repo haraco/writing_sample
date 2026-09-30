@@ -1,9 +1,11 @@
 # Retrieve a Document
 
 Retrieve a document from the specified process instance.  
-To upload a document, see [`Upload a Document`](upload_document.md).
 
-## `GET /rest/app/processes/{instanceId}/documents/{documentId}`
+To upload a document, see [`Upload a Document`](upload_document.md).
+To delete a document, see [`Delete a Document`](delete_document.md).
+
+## `GET /rest/app/processes/*{instanceId}*/documents/*{documentId}*`
 
 ### Request
 

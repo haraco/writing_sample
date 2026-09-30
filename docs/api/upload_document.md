@@ -2,7 +2,10 @@
 
 Uploads a document for the specified process instance.
 
-## `POST /rest/app/processes/{instanceId}/documents`
+To retrieve a document, see [`Retrieve a Document`](get_document.md).
+To delete a document, see [`Delete a Document`](delete_document.md).
+
+## `POST /rest/app/processes/*{instanceId}*/documents`
 
 ### Request
 
@@ -25,7 +28,7 @@ Specify the ID of the process instance to which you want to upload the document.
 ```
 
 The field `content` must contain the document's Base64-encoded content.  
-As BASE64 is an encoding method and doesn't provide. We sanitize all imported files before they're uploaded.
+Base64 is an encoding method and doesn't provide security. We sanitize all imported files before they're uploaded.
 
 ### Example
 

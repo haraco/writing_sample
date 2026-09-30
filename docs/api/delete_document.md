@@ -70,7 +70,7 @@ Returns the metadata of the document that was deleted.
 > - You don't have the necessary right.
 > - You don't have permission to access the specified process instance.
 > - The process instance doesn't allow the deletion of documents.
-> - The document is currently in use and cannot be deleted.
+> - The document is currently in use and can't be deleted.
 
 > **404 Not Found**
 > 
