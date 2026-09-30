@@ -60,7 +60,7 @@ Returns the metadata of the document that was deleted.
 >
 > Possible reasons:
 > 
-> - You aren't logged in
+> - You aren't logged in.
 > - The session expired.
 
 > **403 Forbidden**

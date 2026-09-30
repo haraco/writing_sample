@@ -41,7 +41,7 @@ Returns the requested document as a download stream.
 >
 > Possible reasons:
 > 
-> - You aren't logged in
+> - You aren't logged in.
 > - The session expired.
 
 > **403 Forbidden**

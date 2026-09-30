@@ -9,8 +9,9 @@ This covers:
 
 - [`Prerequisites`](#prerequisites): What you need to get started
 - [`Authentication`](#authentication): How you access the API
-- [`Requests`]: How you upload, retrieve or delete documents
-- [`Examples`] and Responses: What you can expect from a successful request
+- Requests: How you upload, retrieve or delete documents
+- Examples: What requests and responses look like
+- Responses: What you can expect from a successful request
 - Error handling: What you can do if things go wrong
 - Related operations: Where you can look for further guidance
 
