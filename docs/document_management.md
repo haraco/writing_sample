@@ -7,10 +7,10 @@ Manage documents and include them in the workflows you build.
 In this section, you will learn how to manage a document's lifecycle in your workflow processes.  
 This covers:
 
-- Prerequisites: What you need to get started
-- Authenticate: How you access the API
-- Requests: How you upload, fetch or delete documents
-- Examples and Responses: What you can expect from a successful request
+- [`Prerequisites`](#prerequisites): What you need to get started
+- [`Authentication`](#authentication): How you access the API
+- [`Requests`]: How you upload, retrieve or delete documents
+- [`Examples`] and Responses: What you can expect from a successful request
 - Error handling: What you can do if things go wrong
 - Related operations: Where you can look for further guidance
 
@@ -21,7 +21,7 @@ and the REST right ``DocManagement``.
 
 ## Authentication
 
-You log in via BASIC authentication at ``POST rest/app/users/login/basic``.  
+You log in via BASIC authentication at `POST rest/app/users/login/basic`.  
 If you successfully log in, the response contains a session cookie ``SessionID``  
 that you must include in subsequent requests.
 
@@ -48,6 +48,12 @@ The following errors can occur during authentication:
 >
 > - The syntax is invalid.
 
+## Requests
 
+Use the following operations to manage documents throughout their lifecycle:
+
+- [`Upload a document`](./api/upload_document.md): Add a document to a process.
+- [`Retrieve a document`](./api/get_document.md): Retrieve a document via its ID.
+- [`Delete a document`](./api/delete_document.md): Delete a document from a process.
 
 
