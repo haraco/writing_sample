@@ -1,11 +1,11 @@
-# Document Management
+# Document management
 
 Manage documents and include them in the workflows you build.  
 
 ## About
 
 This section explains how to manage a document's lifecycle in your workflow processes.  
-This covers:
+It covers:
 
 - [`Prerequisites`](#prerequisites): What you need to get started
 - [`Authentication`](#authentication): How you access the API
