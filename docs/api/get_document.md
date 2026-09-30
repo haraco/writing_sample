@@ -3,7 +3,7 @@
 Retrieve a document from the specified process instance.  
 To upload a document, see [`Upload a Document`](upload_document.md).
 
-## `GET rest/app/processes/{instanceId}/documents/{documentId}`
+## `GET /rest/app/processes/{instanceId}/documents/{documentId}`
 
 ### Request
 

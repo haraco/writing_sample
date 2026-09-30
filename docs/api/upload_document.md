@@ -2,7 +2,7 @@
 
 Uploads a document for the specified process instance.
 
-## `POST rest/app/processes/{instanceId}/documents`
+## `POST /rest/app/processes/{instanceId}/documents`
 
 ### Request
 
