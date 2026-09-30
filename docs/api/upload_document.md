@@ -2,14 +2,14 @@
 
 Uploads a document for the specified process instance.
 
-To retrieve a document, see [`Retrieve a Document`](get_document.md).  
-To delete a document, see [`Delete a Document`](delete_document.md).
+To retrieve a document, see [`Retrieve a document`](get_document.md).  
+To delete a document, see [`Delete a document`](delete_document.md).
 
 ## `POST /rest/app/processes/{instanceId}/documents`
 
 ### Request
 
-#### Path Parameters
+#### Path parameters
 
 ``{instanceId}``
 
@@ -32,7 +32,7 @@ Base64 is an encoding method and doesn't provide security. We sanitize all impor
 
 ### Example
 
-```
+```bash
 curl -X POST \
   "https://api.example.com/rest/app/processes/12345/documents" \
   -H "Content-Type: application/json" \
@@ -73,43 +73,43 @@ curl -X POST \
 
 <dl>
   <dt>401 Unauthorized</dt>
-  <dd>Possible reasons:</dd>
-  </dd>
-  <dd><ul>
-    <li>You aren't logged in.</li>
-    <li>The session expired.</li>
+  <dd>
+    Possible reasons:
+    <ul>
+      <li>You aren't logged in.</li>
+      <li>The session expired.</li>
     </ul>
   </dd>
 </dl>
 
 <dl>
   <dt>403 Forbidden</dt>
-  <dd>Possible reasons:</dd>
-  </dd>
-  <dd><ul>
-    <li>You don't have the necessary right.</li>
-    <li>You don't have permission to modify the specified process instance.</li>
+  <dd>
+    Possible reasons:
+    <ul>
+      <li>You don't have the necessary right.</li>
+      <li>You don't have permission to modify the specified process instance.</li>
     </ul>
   </dd>
 </dl>
 
 <dl>
   <dt>404 Not Found</dt>
-  <dd>Possible reasons:</dd>
-  </dd>
-  <dd><ul>
-    <li>The specified process instance ID doesn't exist.</li>
+  <dd>
+    Possible reasons:
+    <ul>
+      <li>The specified process instance ID doesn't exist.</li>
     </ul>
   </dd>
 </dl>
 
 <dl>
   <dt>400 Bad Request</dt>
-  <dd>Possible reasons:</dd>
-  </dd>
-  <dd><ul>
-    <li>The request body contains malformed JSON.</li>
-    <li>Your request is invalid because a required field is missing or contains an invalid value.</li>
+  <dd>
+    Possible reasons:
+    <ul>
+      <li>The request body contains malformed JSON.</li>
+      <li>Your request is invalid because a required field is missing or contains an invalid value.</li>
     </ul>
   </dd>
 </dl>

@@ -4,21 +4,18 @@ Manage documents and include them in the workflows you build.
 
 ## About
 
-In this section, you will learn how to manage a document's lifecycle in your workflow processes.  
+This section explains how to manage a document's lifecycle in your workflow processes.  
 This covers:
 
 - [`Prerequisites`](#prerequisites): What you need to get started
 - [`Authentication`](#authentication): How you access the API
-- [`Requests`](#requests): How you upload, retrieve or delete documents
+- [`Requests`](#requests): How you upload, retrieve, or delete documents
 - Examples: What requests and responses look like
-- Responses: What you can expect from a successful request
 - Error handling: What you can do if things go wrong
-- Related operations: Where you can look for further guidance
 
 ## Prerequisites
 
-To send requests, you must have the right to access the application  
-and the REST right ``DocManagement``.
+To send requests, you must have the right to access the application and the REST right ``DocManagement``.
 
 ## Authentication
 
@@ -26,37 +23,37 @@ You log in via [BASIC](https://www.rfc-editor.org/info/rfc7617/) authentication 
 If you successfully log in, the response contains a session cookie ``SessionID``  
 that you must include in subsequent requests.
 
-### Authentication Errors
+### Authentication errors
 
 The following errors can occur during authentication:
 
 <dl>
   <dt>401 Unauthorized</dt>
-  <dd>Possible reasons:</dd>
-  </dd>
-  <dd><ul>
-    <li>You aren't logged in.</li>
-    <li>The session expired.</li>
+  <dd>
+    Possible reasons:
+    <ul>
+      <li>You aren't logged in.</li>
+      <li>The session expired.</li>
     </ul>
   </dd>
 </dl>
 
 <dl>
   <dt>403 Forbidden</dt>
-  <dd>Possible reasons:</dd>
-  </dd>
-  <dd><ul>
-    <li>You don't have the necessary right.</li>
+  <dd>
+    Possible reasons:
+    <ul>
+      <li>You don't have the necessary right.</li>
     </ul>
   </dd>
 </dl>
 
 <dl>
   <dt>400 Bad Request</dt>
-  <dd>Possible reasons:</dd>
-  </dd>
-  <dd><ul>
-    <li>The syntax is invalid.</li>
+  <dd>
+    Possible reasons:
+    <ul>
+      <li>The syntax is invalid.</li>
     </ul>
   </dd>
 </dl>
