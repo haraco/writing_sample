@@ -31,20 +31,17 @@ that you must include in subsequent requests.
 The following errors can occur during authentication:
 
 **401 Unauthorized**
-
 : Possible reasons:
 : 
 : - You aren't logged in
 : - The session expired.
 
 **403 Forbidden**
-
 : Possible reasons:
 : 
 : - You don't have the necessary right.
 
 **400 Bad Request**
-
 : Possible reasons:
 : 
 : - The syntax is invalid.

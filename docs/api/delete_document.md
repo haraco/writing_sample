@@ -35,7 +35,7 @@ curl -X DELETE \
 
 Returns the metadata of the document that was deleted.
 
-```
+```json
 {
    "processId": "12345",
    "documentId": "3f7e2c91-4b8a-4d1e-9f3a-7c2e8a1b5d6f",

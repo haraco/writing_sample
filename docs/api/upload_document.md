@@ -50,7 +50,7 @@ curl -X POST \
 
 *Content Type*: ``application/json``
 
-```
+```json
 {
    "documentId": "3f7e2c91-4b8a-4d1e-9f3a-7c2e8a1b5d6f",
    "url": "https://www.example.com/doc/meeting_notes_2026-08-20.pdf",
