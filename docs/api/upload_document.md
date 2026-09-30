@@ -5,21 +5,21 @@ Uploads a document for the specified process instance.
 To retrieve a document, see [`Retrieve a Document`](get_document.md).
 To delete a document, see [`Delete a Document`](delete_document.md).
 
-## `POST /rest/app/processes/*{instanceId}*/documents`
+## `POST /rest/app/processes/_{instanceId}_/documents`
 
 ### Request
 
-**Path Parameters**
+#### Path Parameters
 
 *``{instanceId}``*  
 
 Specify the ID of the process instance to which you want to upload the document.
 
-**Body**
+#### Body
 
 *Content Type*: ``application/json``
 
-```
+```json
 {
    "fileName": "meeting_notes_2026-08-20.pdf",
    "contentType": "application/pdf",
@@ -46,7 +46,7 @@ curl -X POST \
 
 ### Response
 
-**Body**
+#### Body
 
 *Content Type*: ``application/json``
 

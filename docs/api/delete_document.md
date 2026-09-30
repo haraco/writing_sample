@@ -5,11 +5,11 @@ Delete a document from the specified process instance.
 To upload a document, see [`Upload a Document`](upload_document.md).  
 To retrieve a document, see [`Retrieve a Document`](get_document.md).
 
-## `DELETE /rest/app/processes/{instanceId}/documents/{documentId}`
+## `DELETE /rest/app/processes/_{instanceId}_/documents/_{documentId}_`
 
 ### Request
 
-**Path Parameters**
+#### Path Parameters
 
 *``{instanceId}``*  
 
@@ -19,7 +19,7 @@ Specify the ID of the process instance from which you want to delete the documen
 
 Specify the ID of the document you want to delete.
 
-### Example
+#### Example
 
 ```
 curl -X DELETE \
@@ -29,7 +29,7 @@ curl -X DELETE \
 
 ### Response
 
-**Body**
+#### Body
 
 *Content Type*: ``application/json``
 
