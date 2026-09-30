@@ -33,7 +33,7 @@ The following errors can occur during authentication:
 **401 Unauthorized**
 : Possible reasons:
 : 
-: - You aren't logged in
+: - You aren't logged in.
 : - The session expired.
 
 **403 Forbidden**
@@ -46,8 +46,13 @@ The following errors can occur during authentication:
 : 
 : - The syntax is invalid.
 
-Deflist
-: this is a def list item 
+<dl>
+  <dt>401 Unauthorized</dt>
+  <dd>Possible reasons:</dd>
+  </dd>
+  <dd>- You aren't logged in</dd>
+  <dd>- The session expired.</dd>
+</dl>
 
 ## Requests
 
