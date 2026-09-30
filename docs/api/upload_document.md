@@ -71,34 +71,45 @@ curl -X POST \
 
 ### Errors
 
-> **401 Unauthorized**
->
-> Possible reasons:
-> 
-> - You aren't logged in.
-> - The session expired.
+<dl>
+  <dt>401 Unauthorized</dt>
+  <dd>Possible reasons:</dd>
+  </dd>
+  <dd><ul>
+    <li>You aren't logged in.</li>
+    <li>The session expired.</li>
+    </ul>
+  </dd>
+</dl>
 
-> **403 Forbidden**
-> 
-> Possible reasons:
->
-> - You don't have the necessary right.
-> - You don't have permission to modify the specified process instance.
+<dl>
+  <dt>403 Forbidden</dt>
+  <dd>Possible reasons:</dd>
+  </dd>
+  <dd><ul>
+    <li>You don't have the necessary right.</li>
+    <li>You don't have permission to modify the specified process instance.</li>
+    </ul>
+  </dd>
+</dl>
 
-> **404 Not Found**
-> 
-> Possible reasons:
->
-> - The specified process instance ID doesn't exist.
+<dl>
+  <dt>404 Not Found</dt>
+  <dd>Possible reasons:</dd>
+  </dd>
+  <dd><ul>
+    <li>The specified process instance ID doesn't exist.</li>
+    </ul>
+  </dd>
+</dl>
 
-> **400 Bad Request**
-> 
-> Possible reasons:
->
-> - The request body contains malformed JSON.
-> - Your request is invalid because a required field is missing or contains an invalid value.
-
-
-
-
-
+<dl>
+  <dt>400 Bad Request</dt>
+  <dd>Possible reasons:</dd>
+  </dd>
+  <dd><ul>
+    <li>The request body contains malformed JSON.</li>
+    <li>Your request is invalid because a required field is missing or contains an invalid value.</li>
+    </ul>
+  </dd>
+</dl>

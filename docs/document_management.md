@@ -35,7 +35,7 @@ The following errors can occur during authentication:
   <dd>Possible reasons:</dd>
   </dd>
   <dd><ul>
-    <li>You aren't logged in</li>
+    <li>You aren't logged in.</li>
     <li>The session expired.</li>
     </ul>
   </dd>

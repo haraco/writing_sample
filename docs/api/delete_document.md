@@ -56,31 +56,47 @@ Returns the metadata of the document that was deleted.
 
 ### Errors
 
-> **401 Unauthorized**
->
-> Possible reasons:
-> 
-> - You aren't logged in.
-> - The session expired.
+<dl>
+  <dt>401 Unauthorized</dt>
+  <dd>Possible reasons:</dd>
+  </dd>
+  <dd><ul>
+    <li>You aren't logged in.</li>
+    <li>The session expired.</li>
+    </ul>
+  </dd>
+</dl>
 
-> **403 Forbidden**
-> 
-> Possible reasons:
->
-> - You don't have the necessary right.
-> - You don't have permission to access the specified process instance.
-> - The process instance doesn't allow the deletion of documents.
-> - The document is currently in use and can't be deleted.
+<dl>
+  <dt>403 Forbidden</dt>
+  <dd>Possible reasons:</dd>
+  </dd>
+  <dd><ul>
+    <li>You don't have the necessary right.</li>
+    <li>You don't have permission to access the specified process instance.</li>
+    <li>The process instance doesn't allow the deletion of documents.</li>
+    <li>The document is currently in use and can't be deleted.</li>
+    </ul>
+  </dd>
+</dl>
 
-> **404 Not Found**
-> 
-> Possible reasons:
->
-> - The specified process instance ID doesn't exist.
-> - The specified document ID doesn't exist.
+<dl>
+  <dt>404 Not Found</dt>
+  <dd>Possible reasons:</dd>
+  </dd>
+  <dd><ul>
+    <li>The specified process instance ID doesn't exist.</li>
+    <li>The specified document ID doesn't exist.</li>
+    </ul>
+  </dd>
+</dl>
 
-> **400 Bad Request**
-> 
-> Possible reasons:
->
-> - The ``instanceId`` or ``documentId`` is invalid.
+<dl>
+  <dt>400 Bad Request</dt>
+  <dd>Possible reasons:</dd>
+  </dd>
+  <dd><ul>
+    <li>The <code>instanceId</code> or <code>documentId</code> is invalid.</li>
+    </ul>
+  </dd>
+</dl>
