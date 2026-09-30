@@ -22,7 +22,7 @@ and the REST right ``DocManagement``.
 
 ## Authentication
 
-You log in via `BASIC`(https://www.rfc-editor.org/info/rfc7617/) authentication at `POST rest/app/users/login/basic`.  
+You log in via [BASIC](https://www.rfc-editor.org/info/rfc7617/) authentication at `POST rest/app/users/login/basic`.  
 If you successfully log in, the response contains a session cookie ``SessionID``  
 that you must include in subsequent requests.
 
