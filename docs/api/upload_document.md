@@ -22,6 +22,7 @@ Specify the process instance by Id to upload the document to.
    "fileName": "meeting_notes_2026-08-20.pdf",
    "contentType": "application/pdf"
 }
+```
 
 ### Response
 
