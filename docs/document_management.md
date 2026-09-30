@@ -22,7 +22,7 @@ and the REST right ``DocManagement``.
 
 ## Authentication
 
-You log in via BASIC authentication at `POST rest/app/users/login/basic`.  
+You log in via `BASIC`(https://www.rfc-editor.org/info/rfc7617/) authentication at `POST rest/app/users/login/basic`.  
 If you successfully log in, the response contains a session cookie ``SessionID``  
 that you must include in subsequent requests.
 
@@ -30,24 +30,24 @@ that you must include in subsequent requests.
 
 The following errors can occur during authentication:
 
-> **401 Unauthorized**
->
-> Possible reasons:
-> 
-> - You aren't logged in
-> - The session expired.
+**401 Unauthorized**
 
-> **403 Forbidden**
-> 
-> Possible reasons:
->
-> - You don't have the necessary right.
+: Possible reasons:
+: 
+: - You aren't logged in
+: - The session expired.
 
-> **400 Bad Request**
-> 
-> Possible reasons:
->
-> - The syntax is invalid.
+**403 Forbidden**
+
+: Possible reasons:
+: 
+: - You don't have the necessary right.
+
+**400 Bad Request**
+
+: Possible reasons:
+: 
+: - The syntax is invalid.
 
 ## Requests
 
