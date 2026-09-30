@@ -15,7 +15,7 @@ It covers:
 
 ## Prerequisites
 
-To send requests, you must have the right to access the application and the REST right ``DocManagement``.
+To send requests, you must have access to the application and the REST right ``DocManagement``.
 
 ## Authentication
 
