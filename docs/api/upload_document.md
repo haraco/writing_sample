@@ -5,13 +5,13 @@ Uploads a document for the specified process instance.
 To retrieve a document, see [`Retrieve a Document`](get_document.md).
 To delete a document, see [`Delete a Document`](delete_document.md).
 
-## `POST /rest/app/processes/_{instanceId}_/documents`
+## `POST /rest/app/processes/{instanceId}/documents`
 
 ### Request
 
 #### Path Parameters
 
-*``{instanceId}``*  
+``{instanceId}``
 
 Specify the ID of the process instance to which you want to upload the document.
 

@@ -5,17 +5,17 @@ Retrieve a document from the specified process instance.
 To upload a document, see [`Upload a Document`](upload_document.md).
 To delete a document, see [`Delete a Document`](delete_document.md).
 
-## `GET /rest/app/processes/_{instanceId}_/documents/_{documentId}_`
+## `GET /rest/app/processes/{instanceId}/documents/{documentId}`
 
 ### Request
 
 #### Path Parameters
 
-*``{instanceId}``*  
+``{instanceId}``
 
 Specify the ID of the process instance from which you want to retrieve the document.
 
-*``{documentId}``*  
+``{documentId}``
 
 Specify the ID of the document you want to retrieve.
 
