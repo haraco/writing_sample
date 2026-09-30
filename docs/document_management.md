@@ -9,7 +9,7 @@ This covers:
 
 - [`Prerequisites`](#prerequisites): What you need to get started
 - [`Authentication`](#authentication): How you access the API
-- Requests: How you upload, retrieve or delete documents
+- [`Requests`](#requests): How you upload, retrieve or delete documents
 - Examples: What requests and responses look like
 - Responses: What you can expect from a successful request
 - Error handling: What you can do if things go wrong
@@ -45,6 +45,9 @@ The following errors can occur during authentication:
 : Possible reasons:
 : 
 : - The syntax is invalid.
+
+Deflist
+: this is a def list item 
 
 ## Requests
 
